@@ -30,7 +30,7 @@ class Welcome extends Component {
           className="subscribe-button"
           onClick={this.onSubscribe}
         >
-          {buttonText}
+          {getButtonText}
         </button>
       </div>
     )
